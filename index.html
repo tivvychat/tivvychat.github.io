@@ -12,11 +12,17 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
+      .unselectable {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
     </style>
 	<title>Tivvy</title>
   </head>
   <body style="background:#6354a4;color:#ffffff;font-family:'Baloo';">
-    <div class="centered text-center">
+    <div class="centered text-center unselectable">
       <p style="font-size:100px;"><strong>Tivvy</strong></p>
       <p style="font-size:35px; color:#FAD67F; margin-top: -40px;"><strong>Do&nbsp;Things.&nbsp;With&nbsp;People.</strong></p>
     </div>
